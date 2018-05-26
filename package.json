@@ -11,5 +11,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "serve-static": "^1.13.2"
+  },
+  "devDependencies": {
+    "vuepress": "^0.10.0"
   }
 }
