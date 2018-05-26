@@ -1,0 +1,1 @@
+# Configuring Route and Styling for Browse Page
