@@ -10,9 +10,7 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "serve-static": "^1.13.2"
-  },
-  "devDependencies": {
+    "serve-static": "^1.13.2",
     "vuepress": "^0.10.0"
   }
 }
