@@ -1,7 +1,5 @@
 # Welcome
 
-<h1 style="text-align:center">[TODO]</h1>
+<h1 style="text-align:center">Discover Music Blueprint Sample Application</h1>
 
-::: danger Hi DAN
-[Dan could you help with a welcome note that acknowledges Discover Music, Cloudinary, and Vue?]
-:::
+This Discover Music: Blueprint Sample Application is a complete ready to run example app that integrates APIs from The 7Digital CMG Catalog,Cloudinary, Microsoft, Tivo,  and more!
