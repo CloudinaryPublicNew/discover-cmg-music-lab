@@ -20,7 +20,7 @@ module.exports = {
 function genSidebarConfig(title, prefix, children) {
   return {
     title,
-    collapsable: true,
+    collapsable: false,
     children: children.map(child => prefix + child)
   }
 }
