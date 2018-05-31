@@ -30,7 +30,6 @@ Make the template section of the component identical to the one below:
           single-line
           prepend-icon="search"
           v-model="search"
-          @input="debounceSearch"
         ></v-text-field> 
       </v-flex>
     </v-layout>
@@ -38,9 +37,7 @@ Make the template section of the component identical to the one below:
   </v-container>
   <v-container>
     <v-layout>
-      <v-flex xs6 offset-xs2>
         <!-- pagination and browse list will come here -->
-      </v-flex>
     </v-layout>
   </v-container>
  </div>
@@ -78,8 +75,6 @@ Update the `style` section of the component with the following styles:
 ```javascript
 
 <script>
-import debounce from 'lodash/debounce';
-import RiseLoader from 'vue-spinner/src/RiseLoader';
 
 export default {
   name: 'browser',
@@ -94,14 +89,8 @@ export default {
   created() {
   },
   methods: {
-    debounceSearch: debounce(function(text) {
-      if (!text) return;
-      this.search = text;
-      this.fetchSearchedItem.call(this, text);
-    }, 1000),
   },
   components: {
-    RiseLoader,
   },
 };
 </script>

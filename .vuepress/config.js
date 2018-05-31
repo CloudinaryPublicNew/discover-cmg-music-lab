@@ -8,7 +8,8 @@ module.exports = {
         'route-config-and-styling', 
         'listing', 
         'filtering', 
-        'searching'
+        'searching',
+        'carousel'
       ])
     ]
   },
