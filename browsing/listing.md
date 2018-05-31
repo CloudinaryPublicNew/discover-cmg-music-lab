@@ -1,4 +1,4 @@
-# Fetching and Listing a List of Artists
+# Fetching and Listing of Artists
 
 To display a list of artistes returned from the server, we’ll need a list component. First, we’ll create a component called `BrowserList`. This component will hold individual data for all artistes. Create a file called `BrowserList.vue`. Open the file and fill it with the content below:
 

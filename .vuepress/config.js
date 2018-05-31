@@ -10,6 +10,11 @@ module.exports = {
         'filtering', 
         'searching',
         'carousel'
+      ]),
+      genSidebarConfig('Albums', '/albums/', [
+        'route-config-and-styling',
+        'listing', 
+        'banner'
       ])
     ]
   },
