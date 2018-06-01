@@ -15,6 +15,11 @@ module.exports = {
         'route-config-and-styling',
         'listing', 
         'banner'
+      ]),
+      genSidebarConfig('Playing', '/playing/', [
+        'route-config-and-styling',
+        'player',
+        'social-sharing',
       ])
     ]
   },
