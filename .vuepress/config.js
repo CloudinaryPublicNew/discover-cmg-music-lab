@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'Discover Music Hack Lab',
+  title: 'Discover Music Lab',
   description: 'Step by step gude to build a music client app.',
   themeConfig: {
     sidebar: [
-      genSidebarConfig('Lab', '/lab/', ['', 'getting-started']),
+      genSidebarConfig('Setup', '/lab/', ['', 'getting-started']),
       genSidebarConfig('Browsing', '/browsing/', [
         'route-config-and-styling', 
         'listing', 
@@ -31,7 +31,7 @@ module.exports = {
 function genSidebarConfig(title, prefix, children) {
   return {
     title,
-    collapsable: true,
+    collapsable: false,
     children: children.map(child => prefix + child)
   }
 }
